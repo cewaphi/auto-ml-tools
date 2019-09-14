@@ -1,0 +1,6 @@
+[submodule "sacred"]
+	path = sacred
+	url = https://github.com/IDSIA/sacred.git
+[submodule "labwatch"]
+	path = labwatch
+	url = https://github.com/automl/labwatch.git
