@@ -4,3 +4,6 @@
 [submodule "labwatch"]
 	path = labwatch
 	url = https://github.com/automl/labwatch.git
+[submodule "auto-sklearn"]
+	path = auto-sklearn
+	url = https://github.com/automl/auto-sklearn.git
