@@ -3,7 +3,10 @@
 	url = https://github.com/IDSIA/sacred.git
 [submodule "labwatch"]
 	path = auto-ml-tools/labwatch
-	url = https://github.com/automl/labwatch.git
+	url = https://github.com/cewaphi/labwatch.git
 [submodule "auto-sklearn"]
 	path = auto-ml-tools/auto-sklearn
 	url = https://github.com/automl/auto-sklearn.git
+[submodule "auto-ml-tools/RoBO"]
+	path = auto-ml-tools/RoBO
+	url = https://github.com/automl/RoBO
