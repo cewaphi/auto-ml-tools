@@ -13,3 +13,9 @@
 [submodule "uq/nonconformist"]
 	path = uq/nonconformist
 	url = https://github.com/cewaphi/nonconformist.git
+[submodule "ensemble/mlens"]
+	path = ensemble/mlens
+	url = https://github.com/flennerhag/mlens.git
+[submodule "uq/cqr"]
+	path = uq/cqr
+	url = https://github.com/yromano/cqr.git
