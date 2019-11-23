@@ -28,8 +28,8 @@ from sklearn.metrics import mean_squared_error
 ex = Experiment('gradient_boosting')
 
 #dbname = "labwatch_bo_opt"
-#dbname = "labwatch_bo"
-dbname = "labwatch_bo_1000"
+dbname = "labwatch_bo"
+#dbname = "labwatch_bo_1000"
 
 ex.observers.append(MongoObserver(
     url="127.0.0.1:27017",
@@ -57,6 +57,14 @@ def search_space():
     min_samples_split = UniformInt(lower=2, upper=10, default=2)
     learning_rate = UniformFloat(lower=0.001, upper=0.99, default=.005)
     tags = ['gb', 'labwatch']
+
+@a.search_space
+def reduced_search_space():
+    n_estimators = UniformInt(lower=2, upper=1000, default=250, log_scale=False)
+    max_depth = UniformInt(lower=2, upper=8, default=3)
+    min_samples_split = UniformInt(lower=2, upper=8, default=3)
+    learning_rate = UniformFloat(lower=0.001, upper=0.33, default=.005)
+    tags = ['gb', 'labwatch', 'limited_search_space']
 
 @ex.automain
 def run(_run, n_estimators, max_depth, min_samples_split, learning_rate, loss):
