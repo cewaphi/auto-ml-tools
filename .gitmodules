@@ -13,3 +13,11 @@
 [submodule "uq/nonconformist"]
 	path = uq/nonconformist
 	url = https://github.com/cewaphi/nonconformist.git
+
+
+[submodule "auto-ml-tools/SMAC3"]
+	path = auto-ml-tools/SMAC3
+	url = https://github.com/automl/SMAC3.git
+[submodule "auto-ml-tools/pybnn"]
+	path = auto-ml-tools/pybnn
+	url = https://github.com/automl/pybnn.git
