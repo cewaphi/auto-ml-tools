@@ -1,0 +1,79 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/home/cewa/git/pylife-ai/ai/auto-ml-tools/examples",
+    "dependencies": [
+      "labwatch==0.1.0",
+      "matplotlib==3.1.1",
+      "numpy==1.16.2",
+      "sacred==0.8.0",
+      "scikit-learn==0.20.3"
+    ],
+    "mainfile": "sacred_file_storage_observer.py",
+    "name": "test_file_storage_oberver",
+    "repositories": [
+      {
+        "commit": "e5579e7077467341df4e01e4154ea9ee0b765c52",
+        "dirty": false,
+        "url": "https://github.com/cewaphi/auto-ml-tools.git"
+      }
+    ],
+    "sources": [
+      [
+        "sacred_file_storage_observer.py",
+        "_sources/sacred_file_storage_observer_c71efff2fc28ad0900d59f9e4b0bec96.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/home/cewa/miniconda3/lib/python3.7/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"sacred_file_storage_observer.py\", line 76, in run\n    with open(fpath + \"/test.txt\", \"w\") as f:\n",
+    "FileNotFoundError: [Errno 2] No such file or directory: '9/test.txt'\n"
+  ],
+  "heartbeat": "2019-11-23T17:44:58.540494",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+    "hostname": "SI-Z0VIF",
+    "os": [
+      "Linux",
+      "Linux-4.4.0-17763-Microsoft-x86_64-with-debian-9.11"
+    ],
+    "python_version": "3.7.4"
+  },
+  "meta": {
+    "command": "run",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserve": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2019-11-23T17:44:58.126004",
+  "status": "FAILED",
+  "stop_time": "2019-11-23T17:44:58.545805"
+}

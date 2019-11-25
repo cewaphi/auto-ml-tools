@@ -1,0 +1,11 @@
+INFO - test_file_storage_oberver - Running command 'run'
+INFO - test_file_storage_oberver - Started run with ID "14"
+[<sacred.observers.file_storage.FileStorageObserver object at 0x7f69b4bbf990>]
+File storage observer found: <sacred.observers.file_storage.FileStorageObserver object at 0x7f69b4bbf990>
+gb_runs/14
+gb_runs
+gb_runs/_sources
+None
+gb_runs/_resources
+INFO - test_file_storage_oberver - Result: 6.534799053448812
+INFO - test_file_storage_oberver - Completed after 0:00:01

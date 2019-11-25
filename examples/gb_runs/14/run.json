@@ -1,0 +1,73 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/home/cewa/git/pylife-ai/ai/auto-ml-tools/examples",
+    "dependencies": [
+      "labwatch==0.1.0",
+      "matplotlib==3.1.1",
+      "numpy==1.16.2",
+      "sacred==0.8.0",
+      "scikit-learn==0.20.3"
+    ],
+    "mainfile": "sacred_file_storage_observer.py",
+    "name": "test_file_storage_oberver",
+    "repositories": [
+      {
+        "commit": "e5579e7077467341df4e01e4154ea9ee0b765c52",
+        "dirty": false,
+        "url": "https://github.com/cewaphi/auto-ml-tools.git"
+      }
+    ],
+    "sources": [
+      [
+        "sacred_file_storage_observer.py",
+        "_sources/sacred_file_storage_observer_cd3c8085f78e4e098a5f9af56908619f.py"
+      ]
+    ]
+  },
+  "heartbeat": "2019-11-23T18:04:27.052483",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+    "hostname": "SI-Z0VIF",
+    "os": [
+      "Linux",
+      "Linux-4.4.0-17763-Microsoft-x86_64-with-debian-9.11"
+    ],
+    "python_version": "3.7.4"
+  },
+  "meta": {
+    "command": "run",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserve": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": 6.534799053448812,
+  "start_time": "2019-11-23T18:04:26.335256",
+  "status": "COMPLETED",
+  "stop_time": "2019-11-23T18:04:27.045455"
+}
