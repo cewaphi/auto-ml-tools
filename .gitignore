@@ -105,3 +105,5 @@ _env*
 # mypy
 .mypy_cache/
 
+# test_repo
+file_storage_observer/
