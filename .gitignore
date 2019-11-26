@@ -106,3 +106,4 @@ _env*
 .mypy_cache/
 
 file_storage_observer/
+file_storage_observer/
