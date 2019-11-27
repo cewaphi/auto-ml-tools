@@ -27,4 +27,3 @@
 [submodule "uq/cqr"]
 	path = uq/cqr
 	url = https://github.com/yromano/cqr.git
->>>>>>> 752b6bc... Added new submodules.
