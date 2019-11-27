@@ -21,3 +21,10 @@
 [submodule "auto-ml-tools/pybnn"]
 	path = auto-ml-tools/pybnn
 	url = https://github.com/automl/pybnn.git
+[submodule "ensemble/mlens"]
+	path = ensemble/mlens
+	url = https://github.com/flennerhag/mlens.git
+[submodule "uq/cqr"]
+	path = uq/cqr
+	url = https://github.com/yromano/cqr.git
+>>>>>>> 752b6bc... Added new submodules.
